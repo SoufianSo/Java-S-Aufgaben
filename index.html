@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aufgabe js function</title>
+  </head>
+  <body>
+    <form onsubmit="return false">
+      <label for="numb">Number:</label>
+      <input type="number" class="number" id="number" name="number" />
+      <input onclick="multiply()" type="submit" value="multiply" />
+    </form>
+    <p class="result"></p>
+
+    <form onsubmit="return false">
+      <label for="numb"> in welchen jahr wurdest du geboren?</label>
+      <input type="number" class="date" id="date" name="date" />
+      <input onclick="birthdayDate()" type="submit" value="show age" />
+    </form>
+    <p class="output"></p>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
